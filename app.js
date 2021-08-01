@@ -3,14 +3,14 @@ const body = document.getElementById('body');
 
 
 const expandSidebar = () => {
-    const isSidebarExpanded = body.classList.contains('sidebar-expanded');
-    if(isSidebarExpanded){
-        body.classList.add('sidebar-collapsed');
-        body.classList.remove('sidebar-expanded');
+    const isSidebarCollapsed = body.classList.contains('sidebar-collapsed');
+    if(isSidebarCollapsed){
+        body.classList.add('sidebar-expanded');
+        body.classList.remove('sidebar-collapsed');
         return;
     }
-    body.classList.add('sidebar-expanded');
-    body.classList.remove('sidebar-collapsed');
+    body.classList.add('sidebar-collapsed');
+    body.classList.remove('sidebar-expanded');
 };
      
 menu.onclick = () => expandSidebar();
