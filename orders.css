@@ -1,0 +1,58 @@
+/* Bread Crumb Style */
+.main-header-left {
+    display: flex;
+    align-items: flex-end;
+}
+.main-header-left h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #333;
+}
+.main-header-left p{
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 4px;
+    font-weight: 300;
+    color: #777;
+}
+.crum-title {
+    color: #777;
+}
+.crumb-title a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 400; 
+}
+/* ******************* */
+
+.order-list-details {
+    padding-top: 15px;
+}
+
+.action-btn-wrapper {
+    display: flex;
+}
+.action-btn {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.edit-btn {
+    background: #3c8dbc;
+}
+.delete-btn {
+    background: #dd4b39;
+    margin-left: 5px;
+}

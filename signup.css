@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+/********** Colors **********/
+
+.bg-red {
+    background-color: #dd4b39   ;
+}
+.bg-yellow {
+    background-color: #f39c12   ;
+}
+.bg-green{
+    background-color: #00a65a   ;   
+}
+.bg-teal {
+    background-color: #39cccc   ;
+}
+.bg-blue {
+    background-color: #3c8dbc   ;
+}
+.bg-aqua {
+    background-color: #00c0ef   ;
+}
+
+/* ******** Universal Styling ********** */
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d2d6de;
+}
+
+.back_homepage, .fas.fa-chevron-left {
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+    color: #888;
+}
+.back_homepage a{
+    color: inherit;
+}
+
+.back_homepage a:hover {
+    color: #3c8dbc;
+}
+
+
+.signup-wrapper {
+    width: 320px;
+    background: #fff;
+    padding: 25px;
+}
+
+.signup-title {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #4B5563;
+}
+.group-field {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #9CA3AF;
+    font-weight: 600;
+}
+.group-field .group-label {
+    padding: 10px 0;
+    color: #6B7280;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.group-input {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.group-input input {
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+    color: #666;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 12px;
+}
+.group-input .input-icon {
+    padding: 6px 0 6px 10px;
+    color: #ccc;
+}
+.icons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.group-field.checkbox-wrapper {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+#checkbox {
+    width: 10px;
+    height: 10px;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #3c8dbc;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: 1px solid #367fa9;
+}
+
+.or {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.group-field .icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.fab.fa-facebook-f, .fab.fa-twitter, .fab.fa-github {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab.fa-facebook-f {
+    color: #1E3A8A;
+}
+.fab.fa-twitter {
+    color: #3B82F6;
+}
+.fab.fa-github {
+    color: #111827;
+}
+
+
+.group-field .icon:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.group-field .icon:hover .fab.fa-facebook-f{
+    background: #1E3A8A;
+    color: #fff;
+}
+.group-field .icon:hover .fab.fa-twitter{
+    background: #3B82F6;
+    color: #fff;
+}
+.group-field .icon:hover .fab.fa-github{
+    background: #111827;
+    color: #fff;
+}
+
+
+
+
+.already_account {
+    font-size: 12px;
+    text-align: center;
+}
+.login-here {
+    text-decoration: none;
+    font-weight: 700;
+    color: #666;
+}
+
+.login-here:hover {
+    color: #3c8dbc;
+}
+
