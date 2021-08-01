@@ -237,6 +237,42 @@ body {
     color: #888888;
 }
 
+/* Dropdown for user profile */
+
+.profile-wrapper {
+    width: 100%;
+}
+.profile-header {
+    background: #3c8dbc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffcc;  
+    padding: 20px 10px;
+}
+.profile-header h1{
+    font-size: 17px;
+    font-weight: 400;
+}
+.profile-header p{
+    font-size: 12px;
+}
+.profile-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-btn, .signout-btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #666;
+    border: 1px solid #ddd;
+}
+
 /* *********** Sidebar ********* */
 
 .sidebar {
